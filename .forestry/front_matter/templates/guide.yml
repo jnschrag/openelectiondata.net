@@ -1,0 +1,46 @@
+---
+pages:
+- _guide/test-guide-entry.md
+- _guide/why-we-care-es.md
+- _guide/why-we-care-en.md
+- _guide/introduction-es.md
+- _guide/introduction-en.md
+- _guide/electoral-integrity-es.md
+- _guide/electoral-integrity-en.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: lang
+  label: Lang
+  type: text
+  hidden: false
+  default: ''
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: "/guide/:section/:slug/"
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: section
+  label: Section
+  type: text
+  hidden: false
+  default: ''
+- name: slug
+  label: Slug
+  type: text
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: page

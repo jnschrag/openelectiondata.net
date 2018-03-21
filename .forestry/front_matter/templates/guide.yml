@@ -29,6 +29,15 @@ fields:
   label: Section
   name: guide-section
   description: What section of the guide does this page belong to?
+- type: number
+  name: order
+  label: Display Order
+  description: The order to list this page in.
+  config:
+    min: '1'
+    step: '1'
+    required: true
+  default: '1'
 - name: permalink
   label: Permalink
   type: text
@@ -39,12 +48,3 @@ fields:
   type: text
   hidden: false
   default: page
-- type: number
-- type: number
-  name: order
-  label: Display Order
-  description: The order to list this page in.
-  config:
-    min: '1'
-    step: '1'
-    required: true

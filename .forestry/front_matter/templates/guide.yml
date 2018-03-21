@@ -1,6 +1,5 @@
 ---
 pages:
-- _guide/test-guide-entry.md
 - _guide/why-we-care-es.md
 - _guide/why-we-care-en.md
 - _guide/introduction-es.md
@@ -24,23 +23,16 @@ fields:
   type: text
   hidden: false
   default: "/guide/:section/:slug/"
-- name: date
-  label: Date
-  type: datetime
-  hidden: false
-  default: ''
-- name: section
-  label: Section
-  type: text
-  hidden: false
-  default: ''
-- name: slug
-  label: Slug
-  type: text
-  hidden: false
-  default: ''
 - name: layout
   label: Layout
   type: text
   hidden: false
   default: page
+- type: select
+  config:
+    source:
+      type: pages
+      section: guide
+  label: Section
+  name: guide-section
+  description: What section of the guide does this page belong to?

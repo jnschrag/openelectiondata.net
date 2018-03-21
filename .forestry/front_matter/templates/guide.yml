@@ -13,6 +13,10 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: text
+  name: short_title
+  label: Short Title
+  description: Title to use in sidebar Table of Contents listing
 - name: lang
   label: Lang
   type: text

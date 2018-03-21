@@ -16,7 +16,7 @@ fields:
 - type: text
   name: short_title
   label: Short Title
-  description: Title to use in sidebar Table of Contents listing
+  description: Title to use in sidebar Table of Contents. Leave blank to use the Title.
 - name: lang
   label: Lang
   type: text

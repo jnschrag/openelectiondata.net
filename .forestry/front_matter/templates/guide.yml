@@ -1,11 +1,11 @@
 ---
 pages:
-- _guide/why-we-care-es.md
 - _guide/why-we-care-en.md
+- _guide/electoral-integrity-en.md
+- _guide/why-we-care-es.md
 - _guide/introduction-es.md
 - _guide/introduction-en.md
 - _guide/electoral-integrity-es.md
-- _guide/electoral-integrity-en.md
 hide_body: false
 fields:
 - name: title
@@ -46,5 +46,5 @@ fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: page

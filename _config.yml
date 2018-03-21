@@ -23,7 +23,7 @@ defaults:
     type: guide
   values:
     layout: page
-    permalink: "/guide/:section/:slug/"
+    permalink: "/guide/:slug/"
 
 # Build settings
 markdown: kramdown

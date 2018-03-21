@@ -1,0 +1,8 @@
+<ul>
+{% for item in site.menus.header %}
+	{% assign title = site.data.strings[item.title] %}
+  <li class="menu-item-{{ loop.index }}">
+    <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ title }}</a>
+  </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,7 @@
+header:
+  - url: /index
+    title: menu_home
+    identifier: home
+  - url: /guide
+    title: menu_about
+    identifier: guide

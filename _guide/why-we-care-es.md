@@ -3,7 +3,8 @@ title: Why do we care about elections?
 lang: es
 section: electoral-integrity
 slug: why-we-care
-permalink: /guide/electoral-integrity/why-we-care/
+permalink: "/guide/electoral-integrity/why-we-care/"
+date: 2018-03-21 17:50:21 +0000
 ---
 
 Spanish version.

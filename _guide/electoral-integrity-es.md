@@ -1,7 +1,8 @@
 ---
-title: "Section 1: Electoral Integrity"
+title: 'Section 1: Electoral Integrity'
 lang: es
-permalink: /guide/electoral-integrity/
+permalink: "/guide/electoral-integrity/"
+date: 2018-03-21 17:50:21 +0000
 ---
 
 In Spanish!
